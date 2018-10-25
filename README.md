@@ -25,7 +25,7 @@ HttpGuard是基于openresty,以lua脚本语言开发的防cc攻击软件。而op
 
 ```
 cd /data/www
-wget --no-check-certificate https://github.com/wenjun1055/HttpGuard/archive/master.zip
+wget --no-check-certificate https://github.com/hang666/HttpGuard/archive/master.zip
 unzip master.zip
 mv HttpGuard-master waf
 ```
@@ -57,4 +57,4 @@ lua_max_running_timers 1;
 
 ### 配置HttpGuard
 
-详细配置说明在[config.lua](https://github.com/wenjun1055/HttpGuard/blob/master/guard.lua)中，请根据需求进行配置
+详细配置说明在[config.lua](https://github.com/hang666/HttpGuard/blob/master/guard.lua)中，请根据需求进行配置
